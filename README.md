@@ -136,6 +136,14 @@ El flujo principal para hacer una venta a través de unas de las marcas de Bloom
 Escríbenos a [florencia@bloomreuse.com](mailto:florencia@bloomreuse.com) o por Telegram a [@fvr01](https://t.me/fvr01).
 
 ## Solución
+### Ejecución
+Para ejecutar la app se deben correr los siguientes comandos (igual para back y para front):
+```sh
+npm run build
+npm start
+```
+
+Importante! Si se inicia el front y se visita home sin levantar el servidor, la página quedará colgada. Se puede refrescar la página una vez levantado el servidor (backend) para arreglarlo.
 ### ¿Qué archivos/componentes creaste y qué hacen?
 #### Frontend:
 * `utils/*`: Carpeta donde cree `faqs.tsx` para armar las preguntas dependiendo de la marca. Esto ayuda a reducir el largo del archivo del componente visual de las preguntas frecuentes (`frequently-asked/[id]/page.tsx`), a separar responsabilidades y también ayuda al debugging y readability del codigo, al tener la creación de las preguntas en su propio archivo. En esta carpeta también cree interfaces de typescript para enforzar tipado en algunas variables, lo cual también permite al linter sugerir las estructuras correctas de los objetos al programar. En el futuro esta carpeta puede ser usada para crear archivos de utilidad general o que contengan funciones y variables que se usen en múltiples componentes.
