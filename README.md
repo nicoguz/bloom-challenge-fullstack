@@ -137,7 +137,7 @@ Escríbenos a [florencia@bloomreuse.com](mailto:florencia@bloomreuse.com) o por 
 
 ## Solución
 ### Ejecución
-Para ejecutar la app se deben correr los siguientes comandos (igual para back y para front):
+Para ejecutar la app se deben correr los siguientes comandos en cada una de las carpetas (`/backend` y `/frontend`):
 ```sh
 npm i
 npm run build
