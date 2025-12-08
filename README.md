@@ -139,6 +139,7 @@ Escríbenos a [florencia@bloomreuse.com](mailto:florencia@bloomreuse.com) o por 
 ### Ejecución
 Para ejecutar la app se deben correr los siguientes comandos (igual para back y para front):
 ```sh
+npm i
 npm run build
 npm start
 ```
