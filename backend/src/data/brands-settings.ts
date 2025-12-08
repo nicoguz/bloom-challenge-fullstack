@@ -13,7 +13,7 @@ export default [
     couponPercentage: 100,
   },
   {
-    id: "andes_gear",
+    brandId: "andes_gear",
     hasCoupons: false,
     hasTransferPayment: true,
     blueExpress: true,
@@ -22,7 +22,7 @@ export default [
     couponPercentage: null,
   },
   {
-    id: "roda",
+    brandId: "roda",
     hasCoupons: true,
     hasTransferPayment: true,
     blueExpress: false,
@@ -31,7 +31,7 @@ export default [
     couponPercentage: 100,
   },
   {
-    id: "kokoro",
+    brandId: "kokoro",
     hasCoupons: true,
     hasTransferPayment: true,
     blueExpress: true,
